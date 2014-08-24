@@ -19,6 +19,7 @@
 		60E443841999B44D00E2A4F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E4436C1999B44C00E2A4F1 /* UIKit.framework */; };
 		60E4438C1999B44D00E2A4F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60E4438A1999B44D00E2A4F1 /* InfoPlist.strings */; };
 		60E4438E1999B44D00E2A4F1 /* WumboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E4438D1999B44D00E2A4F1 /* WumboTests.m */; };
+		EB2FBD9A19AA9ED9007AACCF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		60E443891999B44D00E2A4F1 /* WumboTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WumboTests-Info.plist"; sourceTree = "<group>"; };
 		60E4438B1999B44D00E2A4F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60E4438D1999B44D00E2A4F1 /* WumboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WumboTests.m; sourceTree = "<group>"; };
+		EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				60E443781999B44C00E2A4F1 /* AppDelegate.m */,
 				60E4437A1999B44C00E2A4F1 /* Images.xcassets */,
 				60E4436F1999B44C00E2A4F1 /* Supporting Files */,
+				EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */,
 			);
 			path = Wumbo;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			files = (
 				60E443731999B44C00E2A4F1 /* InfoPlist.strings in Resources */,
 				60E4437B1999B44C00E2A4F1 /* Images.xcassets in Resources */,
+				EB2FBD9A19AA9ED9007AACCF /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +443,7 @@
 				60E443931999B44D00E2A4F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60E443941999B44D00E2A4F1 /* Build configuration list for PBXNativeTarget "WumboTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +452,7 @@
 				60E443961999B44D00E2A4F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
