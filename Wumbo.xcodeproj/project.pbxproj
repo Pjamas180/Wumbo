@@ -52,6 +52,7 @@
 		60E443891999B44D00E2A4F1 /* WumboTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WumboTests-Info.plist"; sourceTree = "<group>"; };
 		60E4438B1999B44D00E2A4F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60E4438D1999B44D00E2A4F1 /* WumboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WumboTests.m; sourceTree = "<group>"; };
+		60E4439919AAA39000E2A4F1 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = View.xib; path = ../View.xib; sourceTree = "<group>"; };
 		EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		EB2FBD9B19AAA1D6007AACCF /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPage.h; sourceTree = "<group>"; };
 		EB2FBD9C19AAA1D6007AACCF /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPage.m; sourceTree = "<group>"; };
@@ -118,6 +119,7 @@
 			children = (
 				60E443771999B44C00E2A4F1 /* AppDelegate.h */,
 				60E443781999B44C00E2A4F1 /* AppDelegate.m */,
+				60E4439919AAA39000E2A4F1 /* View.xib */,
 				60E4437A1999B44C00E2A4F1 /* Images.xcassets */,
 				60E4436F1999B44C00E2A4F1 /* Supporting Files */,
 				EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */,
