@@ -82,6 +82,7 @@
 		60E4435C1999B44C00E2A4F1 = {
 			isa = PBXGroup;
 			children = (
+				60E4439719AA9F8C00E2A4F1 /* View.xib */,
 				60E4436E1999B44C00E2A4F1 /* Wumbo */,
 				60E443871999B44D00E2A4F1 /* WumboTests */,
 				60E443671999B44C00E2A4F1 /* Frameworks */,
@@ -228,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60E443731999B44C00E2A4F1 /* InfoPlist.strings in Resources */,
+				60E4439819AA9F8C00E2A4F1 /* View.xib in Resources */,
 				60E4437B1999B44C00E2A4F1 /* Images.xcassets in Resources */,
 				EB2FBD9A19AA9ED9007AACCF /* Storyboard.storyboard in Resources */,
 			);
