@@ -20,6 +20,7 @@
 		60E4438C1999B44D00E2A4F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60E4438A1999B44D00E2A4F1 /* InfoPlist.strings */; };
 		60E4438E1999B44D00E2A4F1 /* WumboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E4438D1999B44D00E2A4F1 /* WumboTests.m */; };
 		60E4439819AA9F8C00E2A4F1 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		60E4439A19AAA39000E2A4F1 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E4439919AAA39000E2A4F1 /* View.xib */; };
 		EB2FBD9A19AA9ED9007AACCF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */; };
 		EB2FBD9D19AAA1D6007AACCF /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FBD9C19AAA1D6007AACCF /* MainPage.m */; };
 		EB2FBD9F19AAA319007AACCF /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB2FBD9E19AAA319007AACCF /* View.xib */; };
@@ -234,7 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60E443731999B44C00E2A4F1 /* InfoPlist.strings in Resources */,
-				EB2FBD9F19AAA319007AACCF /* View.xib in Resources */,
+				60E4439A19AAA39000E2A4F1 /* View.xib in Resources */,
 				60E4439819AA9F8C00E2A4F1 /* (null) in Resources */,
 				60E4437B1999B44C00E2A4F1 /* Images.xcassets in Resources */,
 				EB2FBD9A19AA9ED9007AACCF /* Storyboard.storyboard in Resources */,
