@@ -114,6 +114,7 @@
 				60E443781999B44C00E2A4F1 /* AppDelegate.m */,
 				60E4437A1999B44C00E2A4F1 /* Images.xcassets */,
 				60E4436F1999B44C00E2A4F1 /* Supporting Files */,
+				EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */,
 			);
 			path = Wumbo;
 			sourceTree = "<group>";
@@ -225,6 +226,7 @@
 				60E443731999B44C00E2A4F1 /* InfoPlist.strings in Resources */,
 				60E4439819AA9F8C00E2A4F1 /* View.xib in Resources */,
 				60E4437B1999B44C00E2A4F1 /* Images.xcassets in Resources */,
+				EB2FBD9A19AA9ED9007AACCF /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +445,7 @@
 				60E443931999B44D00E2A4F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60E443941999B44D00E2A4F1 /* Build configuration list for PBXNativeTarget "WumboTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +454,7 @@
 				60E443961999B44D00E2A4F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
