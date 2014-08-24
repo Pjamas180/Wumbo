@@ -19,6 +19,7 @@
 		60E443841999B44D00E2A4F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E4436C1999B44C00E2A4F1 /* UIKit.framework */; };
 		60E4438C1999B44D00E2A4F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60E4438A1999B44D00E2A4F1 /* InfoPlist.strings */; };
 		60E4438E1999B44D00E2A4F1 /* WumboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E4438D1999B44D00E2A4F1 /* WumboTests.m */; };
+		60E4439819AA9F8C00E2A4F1 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E4439719AA9F8C00E2A4F1 /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		60E443891999B44D00E2A4F1 /* WumboTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WumboTests-Info.plist"; sourceTree = "<group>"; };
 		60E4438B1999B44D00E2A4F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60E4438D1999B44D00E2A4F1 /* WumboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WumboTests.m; sourceTree = "<group>"; };
+		60E4439719AA9F8C00E2A4F1 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		60E4435C1999B44C00E2A4F1 = {
 			isa = PBXGroup;
 			children = (
+				60E4439719AA9F8C00E2A4F1 /* View.xib */,
 				60E4436E1999B44C00E2A4F1 /* Wumbo */,
 				60E443871999B44D00E2A4F1 /* WumboTests */,
 				60E443671999B44C00E2A4F1 /* Frameworks */,
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60E443731999B44C00E2A4F1 /* InfoPlist.strings in Resources */,
+				60E4439819AA9F8C00E2A4F1 /* View.xib in Resources */,
 				60E4437B1999B44C00E2A4F1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
