@@ -17,6 +17,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+    // Corey sucks dick
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

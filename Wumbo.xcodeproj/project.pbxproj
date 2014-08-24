@@ -20,6 +20,7 @@
 		60E4438C1999B44D00E2A4F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60E4438A1999B44D00E2A4F1 /* InfoPlist.strings */; };
 		60E4438E1999B44D00E2A4F1 /* WumboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E4438D1999B44D00E2A4F1 /* WumboTests.m */; };
 		EB2FBD9A19AA9ED9007AACCF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */; };
+		EB2FBD9D19AAA1D6007AACCF /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FBD9C19AAA1D6007AACCF /* MainPage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		60E4438B1999B44D00E2A4F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60E4438D1999B44D00E2A4F1 /* WumboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WumboTests.m; sourceTree = "<group>"; };
 		EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		EB2FBD9B19AAA1D6007AACCF /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPage.h; sourceTree = "<group>"; };
+		EB2FBD9C19AAA1D6007AACCF /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				60E4437A1999B44C00E2A4F1 /* Images.xcassets */,
 				60E4436F1999B44C00E2A4F1 /* Supporting Files */,
 				EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */,
+				EB2FBD9B19AAA1D6007AACCF /* MainPage.h */,
+				EB2FBD9C19AAA1D6007AACCF /* MainPage.m */,
 			);
 			path = Wumbo;
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB2FBD9D19AAA1D6007AACCF /* MainPage.m in Sources */,
 				60E443791999B44C00E2A4F1 /* AppDelegate.m in Sources */,
 				60E443751999B44C00E2A4F1 /* main.m in Sources */,
 			);
