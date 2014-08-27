@@ -20,10 +20,8 @@
 		60E4438C1999B44D00E2A4F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60E4438A1999B44D00E2A4F1 /* InfoPlist.strings */; };
 		60E4438E1999B44D00E2A4F1 /* WumboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E4438D1999B44D00E2A4F1 /* WumboTests.m */; };
 		60E4439819AA9F8C00E2A4F1 /* (null) in Resources */ = {isa = PBXBuildFile; };
-		60E4439A19AAA39000E2A4F1 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E4439919AAA39000E2A4F1 /* View.xib */; };
 		EB2FBD9A19AA9ED9007AACCF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */; };
 		EB2FBD9D19AAA1D6007AACCF /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FBD9C19AAA1D6007AACCF /* MainPage.m */; };
-		EB2FBD9F19AAA319007AACCF /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB2FBD9E19AAA319007AACCF /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +51,9 @@
 		60E443891999B44D00E2A4F1 /* WumboTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WumboTests-Info.plist"; sourceTree = "<group>"; };
 		60E4438B1999B44D00E2A4F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60E4438D1999B44D00E2A4F1 /* WumboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WumboTests.m; sourceTree = "<group>"; };
-		60E4439919AAA39000E2A4F1 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = View.xib; path = ../View.xib; sourceTree = "<group>"; };
 		EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		EB2FBD9B19AAA1D6007AACCF /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPage.h; sourceTree = "<group>"; };
 		EB2FBD9C19AAA1D6007AACCF /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPage.m; sourceTree = "<group>"; };
-		EB2FBD9E19AAA319007AACCF /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +83,6 @@
 		60E4435C1999B44C00E2A4F1 = {
 			isa = PBXGroup;
 			children = (
-				EB2FBD9E19AAA319007AACCF /* View.xib */,
 				60E4436E1999B44C00E2A4F1 /* Wumbo */,
 				60E443871999B44D00E2A4F1 /* WumboTests */,
 				60E443671999B44C00E2A4F1 /* Frameworks */,
@@ -120,7 +115,6 @@
 			children = (
 				60E443771999B44C00E2A4F1 /* AppDelegate.h */,
 				60E443781999B44C00E2A4F1 /* AppDelegate.m */,
-				60E4439919AAA39000E2A4F1 /* View.xib */,
 				60E4437A1999B44C00E2A4F1 /* Images.xcassets */,
 				60E4436F1999B44C00E2A4F1 /* Supporting Files */,
 				EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */,
@@ -235,7 +229,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				60E443731999B44C00E2A4F1 /* InfoPlist.strings in Resources */,
-				60E4439A19AAA39000E2A4F1 /* View.xib in Resources */,
 				60E4439819AA9F8C00E2A4F1 /* (null) in Resources */,
 				60E4437B1999B44C00E2A4F1 /* Images.xcassets in Resources */,
 				EB2FBD9A19AA9ED9007AACCF /* Storyboard.storyboard in Resources */,
