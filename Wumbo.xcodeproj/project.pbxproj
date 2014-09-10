@@ -22,6 +22,12 @@
 		60E4439819AA9F8C00E2A4F1 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		EB2FBD9A19AA9ED9007AACCF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */; };
 		EB2FBD9D19AAA1D6007AACCF /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2FBD9C19AAA1D6007AACCF /* MainPage.m */; };
+		EBC9607519C00EC70085B7F3 /* WhatsYourNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC9607419C00EC70085B7F3 /* WhatsYourNameViewController.m */; };
+		EBC9607819C00EE20085B7F3 /* MeetUpPointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC9607719C00EE20085B7F3 /* MeetUpPointsViewController.m */; };
+		EBC9607B19C00EF30085B7F3 /* CreateAGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC9607A19C00EF30085B7F3 /* CreateAGroupViewController.m */; };
+		EBC9607E19C027040085B7F3 /* WumboSearchPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC9607D19C027040085B7F3 /* WumboSearchPageViewController.m */; };
+		EBC9608119C028290085B7F3 /* SetTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC9608019C028290085B7F3 /* SetTimeViewController.m */; };
+		EBC9608719C02B220085B7F3 /* PickYourFriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC9608619C02B220085B7F3 /* PickYourFriendsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,18 @@
 		EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		EB2FBD9B19AAA1D6007AACCF /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPage.h; sourceTree = "<group>"; };
 		EB2FBD9C19AAA1D6007AACCF /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPage.m; sourceTree = "<group>"; };
+		EBC9607319C00EC70085B7F3 /* WhatsYourNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhatsYourNameViewController.h; sourceTree = "<group>"; };
+		EBC9607419C00EC70085B7F3 /* WhatsYourNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhatsYourNameViewController.m; sourceTree = "<group>"; };
+		EBC9607619C00EE20085B7F3 /* MeetUpPointsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetUpPointsViewController.h; sourceTree = "<group>"; };
+		EBC9607719C00EE20085B7F3 /* MeetUpPointsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetUpPointsViewController.m; sourceTree = "<group>"; };
+		EBC9607919C00EF30085B7F3 /* CreateAGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAGroupViewController.h; sourceTree = "<group>"; };
+		EBC9607A19C00EF30085B7F3 /* CreateAGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAGroupViewController.m; sourceTree = "<group>"; };
+		EBC9607C19C027040085B7F3 /* WumboSearchPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WumboSearchPageViewController.h; sourceTree = "<group>"; };
+		EBC9607D19C027040085B7F3 /* WumboSearchPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WumboSearchPageViewController.m; sourceTree = "<group>"; };
+		EBC9607F19C028290085B7F3 /* SetTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetTimeViewController.h; sourceTree = "<group>"; };
+		EBC9608019C028290085B7F3 /* SetTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetTimeViewController.m; sourceTree = "<group>"; };
+		EBC9608519C02B220085B7F3 /* PickYourFriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickYourFriendsTableViewController.h; sourceTree = "<group>"; };
+		EBC9608619C02B220085B7F3 /* PickYourFriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickYourFriendsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +138,18 @@
 				EB2FBD9919AA9ED9007AACCF /* Storyboard.storyboard */,
 				EB2FBD9B19AAA1D6007AACCF /* MainPage.h */,
 				EB2FBD9C19AAA1D6007AACCF /* MainPage.m */,
+				EBC9607319C00EC70085B7F3 /* WhatsYourNameViewController.h */,
+				EBC9607419C00EC70085B7F3 /* WhatsYourNameViewController.m */,
+				EBC9607619C00EE20085B7F3 /* MeetUpPointsViewController.h */,
+				EBC9607719C00EE20085B7F3 /* MeetUpPointsViewController.m */,
+				EBC9607919C00EF30085B7F3 /* CreateAGroupViewController.h */,
+				EBC9607A19C00EF30085B7F3 /* CreateAGroupViewController.m */,
+				EBC9607C19C027040085B7F3 /* WumboSearchPageViewController.h */,
+				EBC9607D19C027040085B7F3 /* WumboSearchPageViewController.m */,
+				EBC9607F19C028290085B7F3 /* SetTimeViewController.h */,
+				EBC9608019C028290085B7F3 /* SetTimeViewController.m */,
+				EBC9608519C02B220085B7F3 /* PickYourFriendsTableViewController.h */,
+				EBC9608619C02B220085B7F3 /* PickYourFriendsTableViewController.m */,
 			);
 			path = Wumbo;
 			sourceTree = "<group>";
@@ -252,6 +282,12 @@
 			files = (
 				EB2FBD9D19AAA1D6007AACCF /* MainPage.m in Sources */,
 				60E443791999B44C00E2A4F1 /* AppDelegate.m in Sources */,
+				EBC9608719C02B220085B7F3 /* PickYourFriendsTableViewController.m in Sources */,
+				EBC9607819C00EE20085B7F3 /* MeetUpPointsViewController.m in Sources */,
+				EBC9607519C00EC70085B7F3 /* WhatsYourNameViewController.m in Sources */,
+				EBC9608119C028290085B7F3 /* SetTimeViewController.m in Sources */,
+				EBC9607E19C027040085B7F3 /* WumboSearchPageViewController.m in Sources */,
+				EBC9607B19C00EF30085B7F3 /* CreateAGroupViewController.m in Sources */,
 				60E443751999B44C00E2A4F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

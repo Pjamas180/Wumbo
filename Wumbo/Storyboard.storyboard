@@ -1,67 +1,246 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="PgY-S9-iXF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="bBP-Jm-NWk">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Whats Your Name View Controller - What's Your Name?-->
+        <scene sceneID="tub-Ih-GDI">
+            <objects>
+                <viewController id="pPr-vC-N2a" customClass="WhatsYourNameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dbs-Ra-Y97"/>
+                        <viewControllerLayoutGuide type="bottom" id="pVH-R6-ChB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Hc-6e-uAR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name?" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="23O-om-vlm">
+                                <rect key="frame" x="110" y="167" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name?" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SJm-Qv-chn">
+                                <rect key="frame" x="111" y="225" width="99" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9K-Ho-h3c">
+                                <rect key="frame" x="98" y="308" width="125" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Wumbo'd Before?">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="What's Your Name?" id="tFc-a6-dYL">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="kAN-c6-RwT">
+                            <connections>
+                                <segue destination="a47-UG-cg8" kind="push" id="xXV-tm-Wii"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="3a2-mu-wRG" kind="push" identifier="wumbodBefore" id="QaL-wY-yAS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="znm-nF-HKz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1252" y="-877"/>
+        </scene>
+        <!--Meet Up Points View Controller - Meet-up Points-->
+        <scene sceneID="mok-EA-GGU">
+            <objects>
+                <viewController id="a47-UG-cg8" customClass="MeetUpPointsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VZ3-n2-bNk"/>
+                        <viewControllerLayoutGuide type="bottom" id="1PT-hv-pC2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6fx-cA-t7h">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create some meet-up points!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zyi-R6-g5f">
+                                <rect key="frame" x="48" y="106" width="224" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Location Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SB8-51-d2o">
+                                <rect key="frame" x="112" y="178" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HnF-Th-4Gw">
+                                <rect key="frame" x="92" y="331" width="137" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Edit Meet-up Points">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Meet-up Points" id="MzU-QZ-rTw">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="C5Z-ap-Rvo"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="Q4e-jp-Nk7">
+                            <connections>
+                                <segue destination="sUl-R7-YjW" kind="push" id="Put-iT-inE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ESX-CT-SWQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1766" y="-877"/>
+        </scene>
+        <!--CreateA Group View Controller - Create a Group-->
+        <scene sceneID="wjq-Zh-g8a">
+            <objects>
+                <viewController id="sUl-R7-YjW" customClass="CreateAGroupViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8oU-gf-Ern"/>
+                        <viewControllerLayoutGuide type="bottom" id="ia2-P9-MnJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UmP-KR-Ccs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Group Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0f5-Pv-9pR">
+                                <rect key="frame" x="112" y="151" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRN-v6-Zpu">
+                                <rect key="frame" x="117" y="225" width="87" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add friends">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hy7-Vd-ukU">
+                                <rect key="frame" x="89" y="293" width="143" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Make Another Group">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAQ-US-uEc">
+                                <rect key="frame" x="119" y="356" width="82" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Edit Groups">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Create a Group" id="AA9-dF-Rrv">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="Vsv-ax-Nkv"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="6Lm-sQ-rYD"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kZj-tW-MXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2288" y="-877"/>
+        </scene>
+        <!--Wumbo Search Page View Controller - Wumbo-->
         <scene sceneID="FSf-vC-7fC">
             <objects>
-                <viewController id="PgY-S9-iXF" sceneMemberID="viewController">
+                <viewController id="PgY-S9-iXF" customClass="WumboSearchPageViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fZ7-wb-BUH"/>
                         <viewControllerLayoutGuide type="bottom" id="8Ku-zs-3kc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="pqE-fe-KVy">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;It's First Grade&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dim-Ii-Tls">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="&quot;It's First Grade&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dim-Ii-Tls">
                                 <rect key="frame" x="96" y="154" width="129" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wumbo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDu-Zo-GBh">
-                                <rect key="frame" x="130" y="101" width="60" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wumbo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDu-Zo-GBh">
+                                <rect key="frame" x="130" y="114" width="60" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Where?" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="rlg-gC-DeQ">
-                                <rect key="frame" x="63" y="269" width="194" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="Wumbo Where?" translatesAutoresizingMaskIntoConstraints="NO" id="gOo-12-zoM">
+                                <rect key="frame" x="0.0" y="61" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="City?" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Zey-og-aHe">
-                                <rect key="frame" x="63" y="323" width="194" height="30"/>
+                            </searchBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(List of places will populate this view)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yXC-fh-ocb">
+                                <rect key="frame" x="18" y="229" width="284" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cDu-Zo-GBh" firstAttribute="top" secondItem="fZ7-wb-BUH" secondAttribute="bottom" constant="81" id="5kb-Dl-tsa"/>
+                            <constraint firstItem="cDu-Zo-GBh" firstAttribute="leading" secondItem="pqE-fe-KVy" secondAttribute="leading" constant="130" id="9BX-iL-O3M"/>
+                            <constraint firstItem="dim-Ii-Tls" firstAttribute="leading" secondItem="pqE-fe-KVy" secondAttribute="leading" constant="96" id="Jr1-pR-eN4"/>
+                            <constraint firstAttribute="trailing" secondItem="dim-Ii-Tls" secondAttribute="trailing" constant="95" id="Ove-au-SON"/>
+                            <constraint firstItem="dim-Ii-Tls" firstAttribute="top" secondItem="fZ7-wb-BUH" secondAttribute="bottom" constant="134" id="TnL-NR-KtY"/>
+                            <constraint firstAttribute="trailing" secondItem="cDu-Zo-GBh" secondAttribute="trailing" constant="130" id="jav-nw-ggO"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Wumbo" id="J0H-xF-EiM">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="lt6-Ux-qdS">
+                            <connections>
+                                <segue destination="SYd-q4-a7T" kind="push" id="lj7-aQ-Ijs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EoX-UQ-i7Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="164" y="45"/>
+            <point key="canvasLocation" x="726" y="-127"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="xSw-j5-ufz">
+            <objects>
+                <viewController id="ADS-P6-l8v" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZLh-bo-yA6"/>
+                        <viewControllerLayoutGuide type="bottom" id="YMO-72-3iU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ai9-Wj-WGG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="upQ-FW-9Qb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="726" y="514"/>
+        </scene>
+        <!--Set Time View Controller - Set Time-->
         <scene sceneID="e5p-hB-fCK">
             <objects>
-                <viewController id="SYd-q4-a7T" sceneMemberID="viewController">
+                <viewController id="SYd-q4-a7T" customClass="SetTimeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zxt-gJ-tla"/>
                         <viewControllerLayoutGuide type="bottom" id="Jhs-7K-yV7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="z9w-SB-oAN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Set Time and Date" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xrL-x4-WEc">
-                                <rect key="frame" x="112" y="269" width="141" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Wumbo When?" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xrL-x4-WEc">
+                                <rect key="frame" x="90" y="254" width="141" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -69,15 +248,107 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Set Time" id="IQP-Ca-65W">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="2g5-sC-u95"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="Grd-Ci-baS">
+                            <connections>
+                                <segue destination="95l-f8-0QJ" kind="push" id="X2o-1l-k9Z"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pzZ-gZ-wy3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="695" y="45"/>
+            <point key="canvasLocation" x="1285" y="-127"/>
+        </scene>
+        <!--Pick Your Friends Table View Controller - Pick Your Friends!-->
+        <scene sceneID="Jku-CK-TFB">
+            <objects>
+                <tableViewController id="ixa-dJ-kAx" customClass="PickYourFriendsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="eRP-G8-VAd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <label key="tableFooterView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe Right for Individual. Left for Group" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Sji-jH-Urp">
+                            <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <connections>
+                            <outlet property="dataSource" destination="ixa-dJ-kAx" id="HVa-to-JqW"/>
+                            <outlet property="delegate" destination="ixa-dJ-kAx" id="SzQ-Rf-C57"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Pick Your Friends!" id="HIY-00-59p">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="wYH-QZ-a4l"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="xbf-wX-o9A"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pJb-Qb-YOw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2341" y="-135"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pLS-Fn-tAl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3a2-mu-wRG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="1PJ-6p-6sp"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lRb-Am-PDI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="PgY-S9-iXF" kind="relationship" relationship="rootViewController" id="nE5-N8-YRp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="04p-oU-b1X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="200" y="-127"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cQt-ht-hgD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bBP-Jm-NWk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oAW-7z-v8W">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pPr-vC-N2a" kind="relationship" relationship="rootViewController" id="gF4-Fn-Beu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wmr-rb-tmf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="726" y="-877"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GaC-Wq-DIq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="95l-f8-0QJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Anh-Pu-NUJ"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jod-q6-fd0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ixa-dJ-kAx" kind="relationship" relationship="rootViewController" id="6gx-oh-fNM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5NK-az-vhR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1815" y="-135"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>
