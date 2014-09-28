@@ -62,16 +62,14 @@
                                 </state>
                                 <connections>
                                     <action selector="firstTime:" destination="yIg-iw-YV9" eventType="touchUpInside" id="xOe-rn-mvW"/>
-                                    <action selector="toWhatsYourName:" destination="yIg-iw-YV9" eventType="touchUpInside" id="LhQ-fH-mWN"/>
+                                    <action selector="toWhatsYourName:" destination="yIg-iw-YV9" eventType="touchUpInside" id="QhX-eR-O4d"/>
+                                    <segue destination="GOR-RT-7qE" kind="replace" identifier="toWhatsYourName" splitViewControllerTargetIndex="1" id="UeR-rW-QR4"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Znv-YA-pRy"/>
-                    <connections>
-                        <segue destination="GOR-RT-7qE" kind="replace" identifier="toWhatsYourName" splitViewControllerTargetIndex="1" id="yKr-hU-SNZ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-Ge-dTm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1127,7 +1125,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="kC8-3j-mlB"/>
+        <segue reference="OyO-o1-iZx"/>
         <segue reference="56Y-o5-5OG"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -24,7 +24,6 @@ class LoginPageViewController: UIViewController {
         
         performSegueWithIdentifier("toHomePage", sender: self)
     }
-    
 
     /*@IBAction func firstTime(sender: UIButton) {
         
