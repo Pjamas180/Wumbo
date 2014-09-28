@@ -19,6 +19,10 @@ class SetRendezvousViewController: UIViewController {
     @IBAction func toSetTime(sender: UIButton){
         performSegueWithIdentifier("toSetTime", sender: self)
     }
+    
+    @IBAction func backButton(sender: UIButton){
+        navigationController?.popViewControllerAnimated(true)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

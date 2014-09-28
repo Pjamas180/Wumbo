@@ -17,13 +17,17 @@ class LoginPageViewController: UIViewController {
     }
     
     @IBAction func toWhatsYourName(sender: UIButton){
+        
         performSegueWithIdentifier("toWhatsYourName", sender: self)
+        
     }
     
     @IBAction func toHomePage(sender: UIButton){
         
         performSegueWithIdentifier("toHomePage", sender: self)
+        
     }
+    
 
     /*@IBAction func firstTime(sender: UIButton) {
         

@@ -19,6 +19,10 @@ class SetTimeViewController: UIViewController {
     @IBAction func toInviteFriends(sender: UIButton){
         performSegueWithIdentifier("toInviteFriends", sender: self)
     }
+    
+    @IBAction func backButton(sender: UIButton){
+        navigationController?.popViewControllerAnimated(true)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

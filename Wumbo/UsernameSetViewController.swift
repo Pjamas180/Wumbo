@@ -20,6 +20,12 @@ class UsernameSetViewController: UIViewController {
         performSegueWithIdentifier("toCreateFG", sender: self)
     }
     
+    // Implementing the "Back" button
+    @IBAction func backButton(sender: UIButton){
+        navigationController?.popViewControllerAnimated(true)
+        
+    }
+    
     /*
     @IBAction func toCreateFG(sender: UIButton) {
         let vc = CreateFGViewController(nibName: "CreateFGViewController", bundle: nil)

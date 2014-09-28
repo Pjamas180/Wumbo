@@ -19,6 +19,10 @@ class InviteFriendsViewController: UIViewController {
     @IBAction func toInviteForm(sender: UIButton){
         performSegueWithIdentifier("toInviteForm", sender: self)
     }
+    
+    @IBAction func backButton(sender:UIButton){
+        navigationController?.popViewControllerAnimated(true)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

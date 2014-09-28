@@ -23,6 +23,11 @@ class CreateFGViewController: UIViewController {
     @IBAction func toCreateRendPts(sender: UIButton){
         performSegueWithIdentifier("toCreateRendPts", sender:self)
     }
+    
+    @IBAction func backButton(sender:UIButton){
+        navigationController?.popViewControllerAnimated(true)
+        
+    }
 
     /*
     @IBAction func toCreateRendPts(sender: UIButton) {

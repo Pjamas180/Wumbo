@@ -16,15 +16,22 @@ class SelectFriendsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    /*
+    
     // Need to figure out a way to go back from modal
-    @IBAction func saveFriends(sender: UIButton) {
+    @IBAction func saveFriends(sender: UIButton){
         
-    }*/
+            // Going to pop from current navigation controller, but save the information
+        navigationController?.popViewControllerAnimated(true)
+        
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func backButton(sender:UIButton){
+        navigationController?.popViewControllerAnimated(true)
     }
     
 

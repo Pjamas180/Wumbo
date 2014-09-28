@@ -19,6 +19,10 @@ class CreateRendPtsViewController: UIViewController {
     @IBAction func toDone(sender: UIButton){
         performSegueWithIdentifier("toDone", sender: self)
     }
+    
+    @IBAction func backButton(sender: UIButton){
+        navigationController?.popViewControllerAnimated(true)
+    }
 
     /*
     @IBAction func toDone(sender: UIButton) {
