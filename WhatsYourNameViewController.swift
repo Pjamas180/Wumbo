@@ -9,15 +9,27 @@
 import UIKit
 
 class WhatsYourNameViewController: UIViewController {
+    
+    var viewLoaded = false
+    
+    override func viewDidAppear(animated: Bool) {
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Making sure the view loads first before doing anything
+        viewLoaded = true
 
         // Do any additional setup after loading the view.
     }
     
     @IBAction func toUsernameSet(sender: UIButton){
+        
+        if( viewLoaded ) {
         performSegueWithIdentifier("toUsernameSet", sender: self)
+        }
     }
 
     /*

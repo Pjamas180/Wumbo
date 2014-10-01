@@ -12,6 +12,9 @@ class LoginPageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Hides the navigation bar.
+        self.navigationController?.navigationBar.hidden = true
 
         // Do any additional setup after loading the view.
     }
@@ -27,21 +30,6 @@ class LoginPageViewController: UIViewController {
         performSegueWithIdentifier("toHomePage", sender: self)
         
     }
-    
-
-    /*@IBAction func firstTime(sender: UIButton) {
-        
-        // Creates a view controller of class WhatsYourNameViewController
-        let vc = WhatsYourNameViewController(nibName: "WhatsYourNameViewController", bundle: nil)
-        // Pushing the view controller onto the stack
-        navigationController?.pushViewController(vc, animated: true)
-        
-    }
-    
-    @IBAction func toHomePage(sender: UIButton) {
-        let vc = HomePageViewController(nibName: "HomePageViewController", bundle: nil)
-        navigationController?.pushViewController(vc, animated: true)
-    }*/
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

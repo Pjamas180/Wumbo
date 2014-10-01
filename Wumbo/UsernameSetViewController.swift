@@ -9,15 +9,22 @@
 import UIKit
 
 class UsernameSetViewController: UIViewController {
+    
+    var viewLoaded = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        viewLoaded = true
 
         // Do any additional setup after loading the view.
     }
 
     @IBAction func toCreateFG(sender: UIButton) {
+        
+        if( viewLoaded ){
         performSegueWithIdentifier("toCreateFG", sender: self)
+        }
     }
     
     // Implementing the "Back" button
