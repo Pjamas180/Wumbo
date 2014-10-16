@@ -8,8 +8,13 @@
 
 import UIKit
 
+
 class LoginPageViewController: UIViewController {
 
+
+    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var username: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,8 +31,10 @@ class LoginPageViewController: UIViewController {
     }
     
     @IBAction func toHomePage(sender: UIButton){
+        if password.text.utf16Count > 0 && username.text.utf16Count > 0 {
+            performSegueWithIdentifier("toHomePage", sender: self)
+        }
         
-        performSegueWithIdentifier("toHomePage", sender: self)
         
     }
     
